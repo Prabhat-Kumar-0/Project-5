@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbarMonstera{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    padding: 10vh 8vh 4vh 8vh;
+}
+#navFirst{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    
+}
+#navMid{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}
+#navMid div h4:hover{
+    border-bottom: 2px solid #000;
+}
+#navMid div h4{
+    font-size: 150%;
+    /* background-color: red; */
+    font-weight: 400;
+}
+#navEnd{
+    /* padding-right:10% ; */
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: gray; */
+}
+#midWhole{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+#monstera{
+    font-size: 5vw;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-family: monument;
+}
+#midWholePart11{
+    /* background-color: aqua; */
+    margin: 10% 0% 5% 10%;
+}
+#midWholePart12{
+    /* background-color: blueviolet; */
+}
+#midWholePart121{
+    width: 20%;
+    
+    margin: 0% 0% 0% 10%;
+    background-color: rgb(31, 135, 52);
+    border-radius: 20px ;
+    display: flex;
+    align-items:center ;
+    justify-content: space-evenly;
+    padding: 7px;
+}
+#midWholePart121 div h2{
+    color: aliceblue;
+    /* font-size: 100%; */
+    font-weight: 400;
+}
+#midWholePart122 img{
+    height: 20px;
+    padding-top: 4px;
+}
+#midWholePart13{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+#imgMain{
+    background-size: cover;
+    /* background-color: red;     */
+    height: 80vh;
+}
